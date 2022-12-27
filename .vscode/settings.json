@@ -1,3 +1,12 @@
 {
-    "ipynb.experimental.pasteImages.enabled": true
+    "ipynb.experimental.pasteImages.enabled": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        ".",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
 }
