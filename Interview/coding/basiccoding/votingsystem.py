@@ -18,4 +18,4 @@ if age>=18:
 else:
     print("Not eligible to vote")
 
-print("eligible" if int(input())>=18 else'not ')
+print("eligible" if int(input())>=18 else 'not ')
