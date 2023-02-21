@@ -1,3 +1,9 @@
 t=int(input())
-n,x,y=[input().split() for i in range(t)]
-print(n,x,y)1
+for i in range(t):
+    x,y,z=input().split() 
+    a=int(x)*10
+    if a>int(y):
+        b=int(y)*int(z)
+    else:
+        b=a*int(z)
+    print(b)
