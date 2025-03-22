@@ -3,10 +3,10 @@ name: Deploy Jekyll Site
 on:
   push:
     branches:
-      - main  # Change if your default branch is different
+      - main  # Or your default branch name
 
-permissions:  # ✅ Added permissions
-  contents: write
+permissions:
+  contents: write  # Allows pushing to gh-pages branch
 
 jobs:
   build-and-deploy:
@@ -14,9 +14,9 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3  # ✅ Downgraded for stability
+        uses: actions/checkout@v3
         with:
-          fetch-depth: 0  # Ensures full history for force push
+          fetch-depth: 0  # Full history for force pushes
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -32,12 +32,12 @@ jobs:
       - name: Build Jekyll Site
         run: |
           cd docs
-          jekyll build -d ../_site
+          jekyll build -d _site  # Build output goes inside docs/_site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_site
-          publish_branch: gh-pages  # ✅ Ensures correct branch
-          force_orphan: true  # ✅ Fixes "permission denied" issues
+          publish_dir: docs/_site  # Deploy from docs/_site
+          publish_branch: gh-pages
+          force_orphan: true
