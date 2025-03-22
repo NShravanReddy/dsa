@@ -26,16 +26,18 @@ jobs:
 
       - name: Install Jekyll and Dependencies
         run: |
+          cd docs
           bundle install || bundle update
 
       - name: Build Jekyll Site
         run: |
-          jekyll build -d _site  # Build the site into the _site directory
+          cd docs
+          jekyll build -d ../_site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _site  # Publish from the _site directory
+          publish_dir: docs/_site
           publish_branch: gh-pages  # ✅ Ensures correct branch
           force_orphan: true  # ✅ Fixes "permission denied" issues
