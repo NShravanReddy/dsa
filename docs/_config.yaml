@@ -7,3 +7,21 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+title: "DSA Learning Hub"
+description: "Data Structures and Algorithms Implementations"
+baseurl: ""
+url: ""
+
+# Collections with dates
+collections:
+  python:
+    output: true
+    permalink: /python/:path/
+  java:
+    output: true
+    permalink: /java/:path/
+  cpp:
+    output: true
+    permalink: /cpp/:path/
+
