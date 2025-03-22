@@ -1,22 +1,20 @@
-name: Deploy Jekyll Site
+name: Deploy Jekyll Site (docs directory)
 
 on:
   push:
     branches:
-      - main  # Or your default branch name
+      - main
 
 permissions:
-  contents: write  # Allows pushing to gh-pages branch
+  contents: write
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Full history for force pushes
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -24,20 +22,20 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Install Jekyll and Dependencies
+      - name: Install Jekyll and dependencies
+        working-directory: docs
         run: |
-          cd docs
           bundle install || bundle update
 
-      - name: Build Jekyll Site
+      - name: Build Jekyll site
+        working-directory: docs
         run: |
-          cd docs
-          jekyll build -d _site  # Build output goes inside docs/_site
+          bundle exec jekyll build -d ../_site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: docs/_site  # Deploy from docs/_site
+          publish_dir: _site
           publish_branch: gh-pages
           force_orphan: true
