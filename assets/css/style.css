@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8fafc;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.site-header {
+    background: #2563eb;
+    color: #fff;
+    padding: 1.5rem 0 0.5rem 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.site-title {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+.site-title a {
+    color: #fff;
+    text-decoration: none;
+}
+.site-description {
+    margin: 0.5rem 0 0 0;
+    font-size: 1.1rem;
+    color: #e0e7ef;
+}
+.site-nav {
+    background: #1e40af;
+    padding: 0.5rem 0;
+}
+.site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5rem;
+}
+.site-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    transition: color 0.2s;
+}
+.site-nav a:hover {
+    color: #facc15;
+}
+main.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+.site-footer {
+    background: #1e293b;
+    color: #cbd5e1;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+@media (max-width: 600px) {
+    .container, main.container {
+        padding: 1rem 0.5rem;
+    }
+    .site-title {
+        font-size: 1.3rem;
+    }
+    main.container {
+        padding: 1rem;
+    }
+} 
