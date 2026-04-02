@@ -1,175 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="94cee5ad-f689-468d-8d4c-06640097456c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Dsa in python/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Linkedlists/creatinglinkedlist.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Linkedlists/creatinglinkedlistquestion1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Linkedlists/insertatspecificposition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Linkedlists/linkedlistcycle.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Linkedlists/linkedlistinsertionatfirst.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Linkedlists/linkedlistinsertionatlast.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Linkedlists/reverselinkedlist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Linkedlists/totallinkedlist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/Recursion.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/hashing.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/hashmap/group anagrams.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/hashmap/hashmap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/hashmap/isomorphic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/hashmap/validsudoku.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/loops/for.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/loops/while.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/math.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/maxprof.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/queue/circularqueue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/queue/queuehybrid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/queue/queuemethod3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/queue/queuetraditional.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/recursion.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/balanced paranthesis.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/exam.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/factdigitsum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/infixtopostfix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/infixtoprefix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/largestrectanglewith1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/largestrectangulararea.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/largestrectangularareaoptimized.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/longestsubarray.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/nextgreater.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/nextgreateroptimized.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/nextsmaller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/previousgreater.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/previousgreateroptimized.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/previoussmaller.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/sample.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/spanofastock.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/spanofastockoptimized.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/stacks/stackoperations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dsa in python/switch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/codechef.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/1d_array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/basicoperations.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/break.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/evenorodd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/firstnnaturalnumbers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/gradingsystem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/helloworld.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/powerofn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/roundoffnumber.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/squarecuberoot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/table.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/basiccoding/votingsystem.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/forloop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/rev.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/coding/reverseofnumber.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/modules/calculator/calc.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/modules/calculator/output.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/modules/numpy/array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/modules/pandas/nyc_weather.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/modules/pandas/weather.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/modules/pandas/weather.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/oops/abstractclasses.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/oops/class.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/oops/classobject.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/oops/exception.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/oops/inheritance.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/oops/polymorphism.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/oops/selfparameter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/pass.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/practice.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/armstrong.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/binarytodecimal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/factorial.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/factors.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/fibanocci.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/gcd.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/harshadnumber.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/hcforgcd.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/lcm.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/leapyear.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/maxofthreenumbers.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/maxoftwonumbers.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/new.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/palindrome.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/positive or negative.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/prime.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/primefactors.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/strongnumber.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/sumusingrecursion.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/top100/vtu.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/tricks/evenodd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/tricks/ithbitofnumber.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/tricks/nonrepeated.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interview/tricks/patterns.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/centered_average.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/arrays/findintersection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/codechef/betterdeal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions/add&amp;mul.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/fac.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/fac.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/hello.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/java.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java/java.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/131.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/1509.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/169.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/540.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/73. Set Matrix Zeroes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/121.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/2535.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/347.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/392.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/409.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/974.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/encodedecode.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/isomorphic.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/linkedlist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/75/prefixproduct.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/860.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/953.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/contest8am/6307.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/contest8am/6347.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/contest8am/6348.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/contest8am/6354.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/contest8am/6367.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/contest8am/6369.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/daily/1122.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/daily/1470.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/daily/2053.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/daily/438.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/20.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/21.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/217.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/242.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/350.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/383.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/387.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/566.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/ds-1/567.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/happy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/saturdaycontest7.30pm/2553.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/saturdaycontest7.30pm/2554.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/tophundredquestions/.vscode/launch.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/tophundredquestions/twosum.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/125. Valid Palindrome.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/Kth Distinct String in an Array.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/longestcommon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string/longestword.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/python/Interview_preparation_2026/for_loop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3Bf5SQ4pLEMXnIkDC6OHiRcr7Ms" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -178,6 +35,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.for_loop.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
