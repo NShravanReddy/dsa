@@ -1,0 +1,54 @@
+(myenv) debian@debian:~/secure-computer-use/secure-computer-use/os_computer_use$ poetry run start
+
+Loaded as API: https://maxiw-os-atlas.hf.space ✔
+Starting the display server...
+Starting the display client...
+The agent will use the following actions:
+- stop()
+- run_command(command)
+- run_background_command(command)
+- send_key(name)
+- type_text(text)
+- click(query)
+USER: screenshot /tmp/tmpa3bxehcd/screenshot_1.png
+CONTEXT: The objective is not specified, so I cannot decide the best next action to take.
+Stopping the display client...
+Stopping the sandbox...
+Saving the stream as mp4...
+Stream saved successfully as mp4.
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/home/debian/secure-computer-use/secure-computer-use/main.py", line 64, in main
+    asyncio.run(start())
+  File "/home/debian/miniconda3/envs/myenv/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/home/debian/miniconda3/envs/myenv/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/miniconda3/envs/myenv/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/debian/secure-computer-use/secure-computer-use/main.py", line 34, in start
+    agent.run(user_input)
+  File "/home/debian/secure-computer-use/secure-computer-use/os_computer_use/sandbox_agent.py", line 180, in run
+    content, tool_calls = call_action_model(
+                          ^^^^^^^^^^^^^^^^^^
+  File "/home/debian/secure-computer-use/secure-computer-use/os_computer_use/llm.py", line 67, in call_action_model
+    completion = fireworks.chat.completions.create(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/miniconda3/envs/myenv/lib/python3.11/site-packages/openai/_utils/_utils.py", line 275, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/miniconda3/envs/myenv/lib/python3.11/site-packages/openai/resources/chat/completions.py", line 829, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/home/debian/miniconda3/envs/myenv/lib/python3.11/site-packages/openai/_base_client.py", line 1280, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/debian/miniconda3/envs/myenv/lib/python3.11/site-packages/openai/_base_client.py", line 957, in request
+    return self._request(
+           ^^^^^^^^^^^^^^
+  File "/home/debian/miniconda3/envs/myenv/lib/python3.11/site-packages/openai/_base_client.py", line 1061, in _request
+    raise self._make_status_error_from_response(err.response) from None
+openai.BadRequestError: Error code: 400 - [{'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}]

@@ -1,0 +1,18 @@
+2026-04-21 16:34:57,242:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/nsr/Nsr_Documents/Documents - shravan’s MacBook Air/dsa-gh-pages/python/2026/Graphs/logging/logs.py", line 52, in display
+    result=n/0
+           ~^~
+ZeroDivisionError: division by zero
+2026-04-21 16:38:29,361:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/nsr/Nsr_Documents/Documents - shravan’s MacBook Air/dsa-gh-pages/python/2026/Graphs/logging/logs.py", line 55, in display
+    result=n/0
+           ~^~
+ZeroDivisionError: division by zero
+2026-04-21 16:39:32,943:__main__:Tried to divide by zero
+Traceback (most recent call last):
+  File "/Users/nsr/Nsr_Documents/Documents - shravan’s MacBook Air/dsa-gh-pages/python/2026/Graphs/logging/logs.py", line 57, in display
+    result=n/0
+           ~^~
+ZeroDivisionError: division by zero
